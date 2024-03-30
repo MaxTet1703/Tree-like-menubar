@@ -6,7 +6,7 @@ from django.urls import reverse
 
 class Menu(models.Model):
 
-    """ Модель, описывающая меню как объект """
+    """ Model describing menu as object """
     
     name = models.TextField("Имя меню", null=False)
     slug = models.SlugField("Url меню", null=False)
@@ -20,7 +20,7 @@ class Menu(models.Model):
 
 
 class MenuItem(models.Model):
-    """ Модель, описывающая разделы меню """
+    """ Model describing menu's items """
 
     title = models.TextField("Название раздела")
     slug = models.SlugField("Url раздела", null=False)
@@ -35,9 +35,3 @@ class MenuItem(models.Model):
         if self.parent: self.slug = f"{self.parent.slug}_{subslug}"
         else: self.slug = f"{self.menu.slug}_{subslug}"
         return super(MenuItem, self).save(*args, **kwargs)
-
-    @property
-    def get_absolute_url(self):
-        return reverse("menu", kwargs={"url": self.slug})
-
-

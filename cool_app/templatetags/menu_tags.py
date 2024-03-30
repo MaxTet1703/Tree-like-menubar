@@ -8,6 +8,18 @@ register = template.Library()
 
 @register.inclusion_tag('templatetags/menubar.html', takes_context=True)
 def draw_menu(context, menu_name):
+    """
+        Tag rendering specify menu by its name
+        How does it work: firstly data from table is filtered,
+        then child nodes move to parent nodes using recurursion.
+        After that data is rendered, child nodes are rendered by dropdown tag
+
+        params:
+        context: 
+        menu_name: menu's name which are used for selet data from db
+
+        return: dict with menu items
+    """
     menu_items = MenuItem.objects.filter(menu__name=menu_name).select_related('parent')
     nodes_dict = {}
     roots = list()
@@ -35,4 +47,12 @@ def draw_menu(context, menu_name):
 
 @register.inclusion_tag('templatetags/dropdown.html', takes_context=True)
 def dropdown(context, children: dict):
+    """
+     Inclusion tag for rendering child nodes
+     
+     params:
+     children: dict with child nodes
+
+     return: children for rendering
+    """
     return {'children': children}
