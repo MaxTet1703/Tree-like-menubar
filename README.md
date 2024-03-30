@@ -38,7 +38,7 @@ To check, there is one query to render one menu enter
 ```
 python maange.py test cool_app
 ```
-
+Note: this project can work correctly with English letters
 
 
 
