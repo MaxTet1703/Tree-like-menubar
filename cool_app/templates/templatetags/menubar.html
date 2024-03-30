@@ -1,0 +1,13 @@
+{% load menu_tags %}
+<ul class="menu">
+    {% for item in items.values %}
+        <li class="item">
+            <a href="{{item.slug}}">
+                {{item.title}}
+            </a>
+            {% if item.children %}
+                {% dropdown item.children %}
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
