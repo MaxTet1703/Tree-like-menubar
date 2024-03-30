@@ -1,0 +1,322 @@
+[
+{
+    "model": "cool_app.menuitem",
+    "pk": 2,
+    "fields": {
+        "title": "item11",
+        "slug": "menu1_item11",
+        "parent": null,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 4,
+    "fields": {
+        "title": "item12",
+        "slug": "menu1_item12",
+        "parent": null,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 5,
+    "fields": {
+        "title": "item13",
+        "slug": "menu1_item13",
+        "parent": null,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 7,
+    "fields": {
+        "title": "item111",
+        "slug": "menu1_item11_item111",
+        "parent": 2,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 8,
+    "fields": {
+        "title": "item112",
+        "slug": "menu1_item11_item112",
+        "parent": 2,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 9,
+    "fields": {
+        "title": "item113",
+        "slug": "menu1_item11_item113",
+        "parent": 2,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 10,
+    "fields": {
+        "title": "item1111",
+        "slug": "menu1_item11_item111_item1111",
+        "parent": 7,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 11,
+    "fields": {
+        "title": "item1112",
+        "slug": "menu1_item11_item111_item1112",
+        "parent": 7,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 12,
+    "fields": {
+        "title": "item1121",
+        "slug": "menu1_item11_item112_item1121",
+        "parent": 8,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 13,
+    "fields": {
+        "title": "item14",
+        "slug": "menu1_item14",
+        "parent": null,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 14,
+    "fields": {
+        "title": "item141",
+        "slug": "menu1_item14_item141",
+        "parent": 13,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 15,
+    "fields": {
+        "title": "item1411",
+        "slug": "menu1_item14_item141_item1411",
+        "parent": 14,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 16,
+    "fields": {
+        "title": "item14111",
+        "slug": "menu1_item14_item141_item1411_item14111",
+        "parent": 15,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 17,
+    "fields": {
+        "title": "item121",
+        "slug": "menu1_item12_item121",
+        "parent": 4,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 18,
+    "fields": {
+        "title": "item122",
+        "slug": "menu1_item12_item122",
+        "parent": 4,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 19,
+    "fields": {
+        "title": "item123",
+        "slug": "menu1_item12_item123",
+        "parent": 4,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 20,
+    "fields": {
+        "title": "item1211",
+        "slug": "menu1_item14_item141_item1411_item14111_item1211",
+        "parent": 16,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 21,
+    "fields": {
+        "title": "item1212",
+        "slug": "menu1_item12_item121_item1212",
+        "parent": 17,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 22,
+    "fields": {
+        "title": "item1213",
+        "slug": "menu1_item12_item121_item1213",
+        "parent": 17,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 23,
+    "fields": {
+        "title": "item1221",
+        "slug": "menu1_item12_item122_item1221",
+        "parent": 18,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 24,
+    "fields": {
+        "title": "item1223",
+        "slug": "menu1_item12_item122_item1223",
+        "parent": 18,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 25,
+    "fields": {
+        "title": "cool_man",
+        "slug": "menu1_item13_cool_man",
+        "parent": 5,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 26,
+    "fields": {
+        "title": "item12345",
+        "slug": "menu1_item11_item111_item12345",
+        "parent": 7,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 27,
+    "fields": {
+        "title": "item 1334",
+        "slug": "menu1_item14_item-1334",
+        "parent": 13,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 28,
+    "fields": {
+        "title": "item16754",
+        "slug": "menu1_item13_item16754",
+        "parent": 5,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 29,
+    "fields": {
+        "title": "item67831",
+        "slug": "menu1_item13_item67831",
+        "parent": 5,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 30,
+    "fields": {
+        "title": "item531843",
+        "slug": "menu1_item11_item112_item1121_item531843",
+        "parent": 12,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 31,
+    "fields": {
+        "title": "item652183",
+        "slug": "menu1_item11_item111_item1111_item652183",
+        "parent": 10,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 32,
+    "fields": {
+        "title": "item9824123",
+        "slug": "menu1_item11_item111_item9824123",
+        "parent": 7,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 33,
+    "fields": {
+        "title": "manboymen",
+        "slug": "menu1_item13_manboymen",
+        "parent": 5,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 34,
+    "fields": {
+        "title": "coolsiteyeno",
+        "slug": "menu1_item13_coolsiteyeno",
+        "parent": 5,
+        "menu": 1
+    }
+},
+{
+    "model": "cool_app.menuitem",
+    "pk": 35,
+    "fields": {
+        "title": "iverycool",
+        "slug": "menu1_item11_iverycool",
+        "parent": 2,
+        "menu": 1
+    }
+}
+]

@@ -13,7 +13,6 @@ def draw_menu(context, menu_name):
     roots = list()
     for item in menu_items:
         item_dict = {
-            'is_root': True if not item.parent else False,
             'title': item.title,
             'slug': item.slug,
             'children': dict()
@@ -29,8 +28,8 @@ def draw_menu(context, menu_name):
     for key in roots:
         if nodes_dict[key]["children"]:
             nodes_dict[key]["children"] = get_children(nodes_dict[key]["children"], nodes_dict)
-        break
-
+            break
+    print(nodes_dict)
     return {'items': nodes_dict}
 
 
